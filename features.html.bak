@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<header>
+<title>FEATURES</title>
+<link rel="stylesheet" type="text/css" href="features.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+</header>
+
+<article><img src="booklogo.png" class="logo" width="55px" height="58px" /></article>
+<nav >
+<ul>
+<li><a href="home.html">Home Page</a></li>
+<li><a class ="active" href="features.html">Features Page</a></li>
+<li><a href="contacts.html">Contacts Page</a></li>
+<li><a href="register.html">Register Page</a></li>
+<li><a href="login.html">Login Page</a></li>
+</ul>
+
+<div class="right-menu">
+<button class ="menu-button">Menu</button>
+<div class="dropdown-menu">
+<a  href="home.html">Home</a><br>
+<a class ="active" href="features.html">Features </a><br>
+<a href="contacts.html">Contacts</a><br>
+<a href="register.html">Register</a><br>
+<a href="login.html">Login</a><br>
+
+   </div>
+</div>   
+</nav>
+
+<body>
+<section>
+<article><p id="title"> Features Page</p></article>
+
+<article class="flex1">
+<img src="feature1.jpg" width="350px" height="200px" />
+<p class="details1"> 
+As an independent bookstore, we strive to offer 
+the same variety and richness of experience as the books on our shelves. And 
+because the only people we’re beholden to are our
+ customers and ourselves, 
+we can focus on what really matters of promoting diverse perspectives, upholding 
+the free exchange of ideas, championing the enduring power of books, 
+and bolstering the great community of readers and authors we’re lucky to be a part of.</p>
+</article>
+
+<article class="flex2">
+<p class="details2">
+Although the buying and selling of books for profit has always been an aim 
+of booksellers, bookstore archives 
+reveal the myriad other activities taking place amid the commerce.
+ Blurring the lines among the different sorts 
+of intimacy and creativity realized in rooms full of books </p>
+<div id="image">
+<img src="feature4.jpg" width="350px" height="200px" /></div>
+</article>
+
+<article class="flex3"><img src="feature3.jpg" width="350px" height="200px" />
+<p class="details3">Savanis Bookshop wants to give back to everyone who promotes books, authors, and independent bookstores.
+We hope that our Bookshop can help strengthen the fragile ecosystem and margins around 
+bookselling and keep local bookstores an integral part of our culture and communities.</p>
+</article>
+</section>
+
+<section>
+<div class="contactform">
+  <form action=""method="post">
+  <h1>Contact Form</h1>
+<label for="fname">First Name</label>
+  <input type="text" placeholder="First name.."><br><br>
+<label for="lname">Last Name</label>
+  <input type="text" placeholder="Last name.."><br><br>
+<label for="lname">Phone Number</label>
+  <input type="text" placeholder="Phone Number.."><br><br>
+    <label for="subject">Message</label><br><br>
+    <textarea id="Message" name="Message" placeholder="Write something.." style="height:200px"></textarea>
+	<br><br>
+<input type="submit" value="Submit">
+<br>
+  </form>
+</div>
+
+<div class="sitemap">
+    <p><b>SITE MAP</b></p> 
+    <ul class ="ul">
+<li><a href="home.html">Home Page</a></li>
+<li><a class ="active" href="features.html">Features Page</a></li>
+<li><a href="contacts.html">Contacts Page</a></li>
+<li><a href="register.html">Register Page</a></li>
+<li><a href="login.html">Login Page</a></li>
+</ul>
+ </div>
+
+<p id = "contact"><img src="booklogo.png" class="logo" width="120px" height="120" />
+ Contact Us Through <br><br><br><br><br><br>
+<img src="phonecall.jpg" width="30px" height="30px"/>0799945373<br><br>
+<img src="email.jpg" width="30px" height="30px"/>savanisbookshop@gmail.com<br><br>
+<img src="instagram.jpg" width="30px" height="30px"/>@savanisbookshop<br><br>
+<img src="twitter.jpg" width="30px" height="30px"/>@SavanisBK</p>
+</section>
+<footer>
+<div id ="footer">
+Savanis Bookshop
+copyright@2020:Savanisbookshop.All rights Reserved
+</div>
+</footer>
+
+</body>
+</html>

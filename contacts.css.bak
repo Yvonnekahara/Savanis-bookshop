@@ -1,0 +1,121 @@
+#title{
+	color:#C366C4;
+	font-weight:bold;
+  text-shadow: 4px 4px 4px white;
+}
+.logo{ height:50dp;
+width:50dp;
+float:left;
+background-color:#ffe6e6;}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #377569;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+   padding: 20px 80px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color:red;
+}
+.active{color:#1a8cff;}
+
+.menu-button{
+	background-color:transparent;
+	color:white;
+	padding:15px;
+	font-size:15px;
+	cursor:pointer;
+	border:1px solid #fff;
+	}
+	.right-menu{
+		position:relative;
+		display:inline-block;
+		float:right;
+		margin-top:-55px;
+	}
+	.dropdown-menu {
+		display:none;
+		position:absolute;
+		background-color:#f9f9f9;
+		min-width:158px;
+		z-index:1;	
+	}
+	.dropdown-menu a {
+		
+		padding:1px 3px;
+		text-decoration:none;
+		display:block;}
+		
+	.dropdown-menu a:hover{
+		background-color:#000;
+	color:#FFFCB2;}
+	.right-menu:hover .dropdown-menu{
+		display:block;}
+	.right-menu:hover .menu-button{
+		background-color:transparent;}		
+
+
+section{margin:80px;}
+body{
+background-color:#F1948A;
+}
+section{margin:90px;}
+.clientform{
+border-style:dashed;
+float:left;
+}
+.contactform{
+	border-style:dashed;
+	float:left;
+	background-color:grey;
+	
+}
+.sitemap{
+	flex:1;
+	margin-left:500px;
+}
+.ul{
+	display:block;
+	padding:0;
+	margin:0;
+	text-align:center;
+	width:min-content;
+}
+#time{float:right;
+border-style:double;
+border-color:#99004d;
+margin-left: 20px;
+
+}
+
+#map{float:right;
+margin-left: 150px;
+margin-top: -70px;
+
+}
+
+#contact{
+	float:right;
+	margin-top:-330px;}
+	
+footer{
+background-color:#BC5C79;
+  position: absolute;
+    bottom: -650px;
+	width:100%;
+	text-align:center;
+	
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<header><link rel="stylesheet" type="text/css" href="login.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+</header>
+<div class="right-menu">
+<button class ="menu-button">Menu</button>
+<div class="dropdown-menu">
+<a  href="home.html">Home</a><br>
+<a href="features.html">Features </a><br>
+<a href="contacts.html">Contacts</a><br>
+<a href="register.html">Register</a><br>
+<a class ="active" href="login.html">Login</a><br>
+   </div>
+</div> 
+<body>
+<div id="login">
+  <form action="" method="post">
+  <h1>Login Page</h1>
+
+  <input type="text" name="name" placeholder="Enter your name"><br><br>
+  <input type="text" name="password"  placeholder="Enter your password"><br><br>
+  
+<input type="submit" value="LOGIN">
+  <p>Don't you have an account? <a href="register.html">Register Page</a></li>
+  </form>
+</div>
+</body>
